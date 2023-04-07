@@ -1,0 +1,75 @@
+body {
+height: 120vh; 
+background-image:
+linear-gradient(transparent,#f8fbf7) ,url("/imagenes/SantaBarbara.jpg");
+background-position: 0 65vw, 0 0; 
+background-size: 70% 7vw,100% auto; 
+background-repeat: no-repeat; 
+
+
+}
+
+.container{
+    background:rgb(245, 244, 243);
+    display:grid;
+    width:700px;
+    height:500px;
+    margin:0 auto;
+    margin-top: 200px;
+    background-image: url("/imagenes/imagen3.jpg.png");
+    background-size: cover;
+}
+
+
+
+
+h1 {
+width: 12em; 
+margin: 20px auto; 
+padding: .2em .15em; 
+color: maroon; 
+background-color: rgba(255,255,255,.3); 
+text-align: center; 
+border-radius: 1em; 
+box-shadow: 0 0 .4em 0 rgba(255,255,255,1); 
+}
+#capa {
+position: fixed; 
+top: -10vh; left: 0; 
+height: 120vh; 
+width: 100vw; 
+pointer-events: none; 
+}
+#capa .nieve { 
+position: absolute; 
+top: 0; left: 0; 
+width: 2.2vmin; height: 2.2vmin; 
+background: radial-gradient(circle, white 40%, transparent 75%); 
+}
+footer {
+position: absolute; 
+bottom: 20px; right: 10px; 
+font-size:150%; 
+font-weight: bold; 
+padding: .2em .15em; 
+color: maroon; 
+background-color: rgba(255,255,255,.5); 
+text-align: center; 
+border-radius: 1em; 
+box-shadow: 0 0 .4em 0 rgba(255,255,255,1); 
+}
+p {
+display: block; 
+margin-top: 55vw; 
+text-align: center; 
+font: bold 2em/1.5 cursive; 
+color: black; 
+}
+span {
+color: rgb(100, 11, 11);
+font: bold .6em/3 serif; 
+margin-left: 20%; 
+text-align: left;
+font-size: 33px;
+font-family: 'Delicious Handrawn', cursive;
+}
